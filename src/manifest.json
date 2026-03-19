@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "AI Selection Relay",
+  "version": "1.0.0",
+  "description": "選択したテキストを任意のAIチャットへ素早く転送します。",
+  "permissions": ["contextMenus", "storage", "scripting", "activeTab"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "128": "icon.png"
+  }
+}
